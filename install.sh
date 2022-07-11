@@ -10,11 +10,16 @@ source ~/.bashrc &&
 nvm install v16.15.1 &&
 npm install -g npm@8.13.2 &&
 
-echo "download vsocde e chrome";
+echo "Instalando composer";
+
+wget https://getcomposer.org/download/2.3.9/composer.phar && 
+cd Downloads &&
+chmod +x composer.phar &&
+sudo mv composer.phar /usr/local/bin/composer &&
 
 
 echo "clonado projeto tcc";
-cd Documents/teste &&
+cd Documents &&
 git clone https://github.com/CaioDonat/CentralAtendimentoCliente2/tree/servidor &&
 cd CentralAtendimentoCliente2 &&
 git checkout servidor &&
