@@ -3,6 +3,9 @@
 #execute chmod +x install
 # execute ./install
 
+sudo apt-get update -y 
+sudo apt-get full-upgrade -f
+
 echo "Removendo PHP existente"
 sudo apt remove php
 sudo apt remove php composer 
@@ -10,7 +13,7 @@ echo "instalando ambiente de desenvolvimento";
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 sudo apt update
-sudo apt install php8.0
+sudo apt install php8.1
 
 sudo apt install vim git curl
 
@@ -25,8 +28,8 @@ npm install -g npm@8.13.2
 
 function composer(){
 echo "Instalando composer";
-wget https://getcomposer.org/download/2.3.10/composer.phar  
 cd Downloads 
+wget https://getcomposer.org/download/2.3.10/composer.phar  
 chmod +x composer.phar 
 sudo mv composer.phar /usr/local/bin/composer 
 
@@ -47,7 +50,3 @@ npm run dev
 
 
 cd ~/ 
-
-echo "atulizando sistema"
-sudo apt-get update -y 
-sudo apt-get full-upgrade 
