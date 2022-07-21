@@ -1,0 +1,27 @@
+B) MVP P/ DIRECIONAMENTO DO PROJETO §enderson
+
+Breve explicação do MVP e porque de usar, o MVP (Produto Mínimo Viável) tem como contemplação produto versão simples e enxuta(Falar do projeto), buscando usar o MVP é aquela versão do produto que permite uma volta completa do loop Build-Measure-Learn com um mínimo quantidade de esforço e a menor quantidade de tempo de desenvolvimento
+
+APENAS VISUAL (FLUXO DE USO) o funcionario tera que logar(entrar) no sistema inserindo as informações ex: mesa atendimento, o serviço que fara, 
+
+APLICATIVOS ALTERNATIVOS (FIGMA) a diversos aplicativos alternativos para se criar um "modelo" de MVP sem usar muitos recursos e tempo
+
+C) ALINHAMENTO DE EXPECTATIVAS §enderson
+
+Que os sistema esteja em funcionamento sem erros/falhas...
+
+ESTIMATIVAS DE TEMPO & RECURSOS NECESSÁRIOS
+
+Com bases em projetos grandes que vistos pode levar 5 meses a 5 anos até que esteja pronto por completo..., projetos nesses tipos demanda tempo e muitos
+Recursos como escolha de tecnologia, framework, bibliotecas entros outros.. (continua em arquiterua sistemas)
+
+ARQUITETURA DO SISTEMA §enderson
+ESCOLHA DE TECNOLOGIAS, para criação desse sistema foi escolhido a linguagem programação php e framework laravel por conta de seus recursos  
+LARAVEL, PHP8.1
+HTML 5 + BLADE (TEMPLATE)
+para banco MYSQL, mas por conta de ser SGBD pago sera migrado para PSQL
+HEROKU
+VPS
+
+ 
+
