@@ -18,10 +18,10 @@ Recursos como escolha de tecnologia, framework, bibliotecas entros outros.. (con
 ARQUITETURA DO SISTEMA §enderson
 ESCOLHA DE TECNOLOGIAS, para criação desse sistema foi escolhido a linguagem programação php e framework laravel por conta de seus recursos  
 LARAVEL, PHP8.1
-HTML 5 + BLADE (TEMPLATE)
+HTML 5 + BLADE (TEMPLATE) usado inicialmente o HTML5 para criação dos prototipos, depois sendo migrado para blade template do laravel assim tendo maiorsegurança 
 para banco MYSQL, mas por conta de ser SGBD pago sera migrado para PSQL
-HEROKU
-VPS
+A nossa aplicação se hospeda no HEROKU tem recursos gratuitos e limitados
+VPS(Virtual Private Server) onde se encontrar hospedado o banco dados
 
  
 
